@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Wordle </title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="h-full text-white flex justify-center"> 
+    <main class="h-full">
+        <section class="h-full">
+            <div class=" h-full w-[509px]  flex flex-col justify-between">
+                <nav class="  w-full h-14 flex flex-row justify-between text-center items-center border-b">
+                    <icon-></icon->
+                    <div class=" text-[36px] wordle tracking-wide font-bold"> WORDLE </div>
+                    <icon-two></icon-two>
+                </nav>
+
+                <game- class=" w-full h-2/6 grow flex items-center justify-center "> 
+                    <div class="tile w-[350px] h-[450px]  flex l justify-between items-center  ">
+                        <div class="tile1 relative left-1">
+                            <div class="tiles h-[62px] am1 w-[62px] border-2 mb-1 "></div>
+                            <div class="tiles h-[62px] 2 w-[62px] border-2 mb-1 "></div>
+                            <div class="tiles h-[62px] 3 w-[62px] border-2  mb-1"></div>
+                            <div class="tiles h-[62px] 4 w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] 5 w-[62px] border-2 mb-1 "></div>
+                            <div class="tiles h-[62px] 6 w-[62px] border-2 mb-1"></div>
+                        </div>
+
+                        <div class="tile2 relative ">
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                        </div>
+        
+                        <div class="tile3 relative right-1">
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1 "></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1 "></div>
+                        </div>
+
+                        <div class="tile4 relative right-2">
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1 "></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                        </div>
+
+                        <div class="tile5 relative right-3">
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1 "></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                            <div class="tiles h-[62px] w-[62px] border-2 mb-1"></div>
+                        </div>
+                    </div>
+                </game->
+
+                <keyboard- class="w-full h-[200px] keyboard-container">
+                    <div class="keyboard-row">
+                        <button data-key="o">o</button>
+                        <button data-key="q">q</button>
+                        <button data-key="w">w</button>
+                        <button data-key="p">p</button>
+                        <button data-key="e">e</button>
+                        <button data-key="r">r</button>
+                        <button data-key="t">t</button>
+                        <button data-key="t">y</button>
+                        <button data-key="t">u</button>
+                        <button data-key="t">i</button>
+                    </div>
+                
+                    <div class="keyboard-row">
+                        <div class="space-half"></div>
+                        <button data-key="o">a</button>
+                        <button data-key="s">s</button>
+                        <button data-key="d">d</button>
+                        <button data-key="f">f</button>
+                        <button data-key="g">g</button>
+                        <button data-key="h">h</button>
+                        <button data-key="j">j</button>
+                        <button data-key="k">k</button>
+                        <button data-key="l">l</button>
+                        <div class="space-half"></div>
+                    </div>
+
+                    <div class="keyboard-row">
+                        <button data-key="enter" class="wide-button">Enter</button>
+                        <button data-key="z">z</button>
+                        <button data-key="x">x</button>
+                        <button data-key="c">c</button>
+                        <button data-key="v">v</button>
+                        <button data-key="b">b</button>
+                        <button data-key="n">n</button>
+                        <button data-key="m">m</button>
+                        <button data-key="k">k</button>
+                        <button data-key="del" class="wide-button">Del</button>
+                    </div>
+
+                </keyboard->
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

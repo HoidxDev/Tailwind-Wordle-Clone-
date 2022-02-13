@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body {
+    background: #121213;
+}
+
+nav {
+    border-bottom: 1px solid #3a3a3c;
+}
+
+
+.wordle {
+    font-family:'Open Sans', sans-serif;
+    color: rgb(215, 218, 220);
+}
+
+.tiles {
+    border-color: #3a3a3c;
+    font-size: 40px;
+    font-weight: bold;
+    color: gainsboro;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 8px;
+    touch-action: manipulation;
+}
+
+.keyboard-row button {
+    font-family: inherit;
+    font-weight: bold;
+    border: 0ch;
+    padding: 0%;
+    height: 58px;
+    cursor: pointer;
+    background-color: rgb(129, 131, 132);
+    color: rgb(215, 218, 220);
+    flex-grow: 1;
+    text-transform: uppercase;
+    margin-right: 6px;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.keyboard-row button .wide-button {
+    flex-grow: 1.5;
+    
+}
+
+.space-half {
+    flex-grow: 0.5;
+}
